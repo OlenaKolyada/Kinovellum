@@ -1,6 +1,8 @@
+rootProject.name = "lessons"
+
 pluginManagement {
+    val kotlinVersion: String by settings
     plugins {
-        val kotlinVersion: String by settings
         kotlin("jvm") version kotlinVersion
     }
 }
@@ -8,7 +10,5 @@ pluginManagement {
 plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0"
 }
-rootProject.name = "kinovellum"
 
-includeBuild("lessons")
-includeBuild("kinovellum-be")
+include("hw1")
