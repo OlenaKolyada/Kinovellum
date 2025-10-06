@@ -2,7 +2,7 @@ plugins {
     kotlin("jvm") apply false
 }
 
-group = "com.funkycorgi.rustydeck"
+group = "com.funkycorgi.kinovellum"
 version = "1.0-SNAPSHOT"
 
 allprojects {
