@@ -1,8 +1,11 @@
-/.gradle/
+.gradle
 **/build/
-!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+.gradletasknamecache
+!gradle-wrapper.jar
 !**/src/**/build/
+!gradle-wrapper.properties
 
-/.idea/
-/.kotlin/
+.idea/
+.kotlin/
 **/*.iml
