@@ -1,4 +1,4 @@
-rootProject.name = "kinovellum-be"
+rootProject.name = "vulpecula-be"
 
 dependencyResolutionManagement {
     versionCatalogs {
@@ -26,4 +26,4 @@ plugins {
 
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
-include("kinovellum-tmp")
+include("vulpecula-tmp")
