@@ -21,6 +21,8 @@ The project is named after the Vulpecula constellation (Latin for "little fox"),
     1. [ADR](docs/03-architecture/01-adr.md)
     2. [API Description](docs/03-architecture/02-api-description.md)
     3. [Architecture Diagrams](docs/03-architecture/03-architecture-diagrams.md)
+4. Testing
+    1. [Tests list](docs/05-testing/01-tests-list.md)
 
 ## Project Modules
 - Transport models, API
