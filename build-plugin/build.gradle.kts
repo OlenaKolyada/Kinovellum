@@ -6,11 +6,11 @@ gradlePlugin {
     plugins {
         register("build-jvm") {
             id = "build-jvm"
-            implementationClass = "com.funkycorgi.kinovellum.plugin.BuildPluginJvm"
+            implementationClass = "com.funkycorgi.vulpecula.plugin.BuildPluginJvm"
         }
         register("build-kmp") {
             id = "build-kmp"
-            implementationClass = "com.funkycorgi.kinovellum.plugin.BuildPluginMultiplatform"
+            implementationClass = "com.funkycorgi.vulpecula.plugin.BuildPluginMultiplatform"
         }
     }
 }

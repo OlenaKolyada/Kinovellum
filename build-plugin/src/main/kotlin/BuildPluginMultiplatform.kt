@@ -1,4 +1,4 @@
-package com.funkycorgi.kinovellum.plugin
+package com.funkycorgi.vulpecula.plugin
 
 import org.gradle.accessors.dm.LibrariesForLibs
 import org.gradle.api.Plugin
