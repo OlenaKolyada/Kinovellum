@@ -65,31 +65,19 @@
    * Returns: List of entries matching search criteria
    * Usage: Universal method for getting entry lists and repeat viewing history
 
-### CRUDS for Movies
+### Methods for Movies
 
-6. **`movie.create`** (administrators only) - Add movie to database
-   * Business rule: Only administrators can manually add movies
-   * Validation: Duplicate check
-   * Usage: For adding movies absent in TMDb
+6. **`movie.search`** - Search and automatic movie addition
+   * Business logic: Search movies by title first in local database, if not found - query TMDb API with automatic saving of found results to local database
+   * Filters: By title, release year, genre
+   * Returns: List of movies with basic information
+   * Note: Method performs implicit movie record creation (implicit create)
 
 7. **`movie.read`** - Get detailed movie information
    * Business logic: Returns complete movie information from local database
    * Returns: Detailed movie information
 
-8. **`movie.update`** (administrators only) - Update movie information
-   * Business rule: Only administrators can edit movie information
-   * Usage: For correcting errors or updating data
-
-9. **`movie.delete`** (administrators only) - Delete movie from database
-   * Business rule: Only administrators can delete movies
-   * Constraint: Cannot delete movie if associated viewing entries exist
-   * Returns: Successful deletion status or error about existing relationships
-
-10. **`movie.search`** - Search movies
-    * Business logic: Search movies by title first in local database, if not found - query TMDb API and save results to local database
-    * Filters: By title, release year, genre
-    * Returns: List of movies with basic information
-    * Caching: Movies found through TMDb are saved to local database
+**Note:** Full CRUD for movies (create, update, delete for administrators) is planned for implementation in future project iterations.
 
 ## 3. Business Rules
 
