@@ -1,6 +1,6 @@
 # Vulpecula
 
-[English](README.md) | Русская версия
+[English](README.md) | Русский
 
 Учебный проект для курса Kotlin Backend Developer. Поток курса 2025-08.
 
