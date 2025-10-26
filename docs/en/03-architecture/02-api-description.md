@@ -21,9 +21,7 @@
 |-------------|-------------------------|---------------------------------------|
 | id          | Unique movie identifier | "movie:tt0111161"                     |
 | title       | Movie title             | "The Shawshank Redemption"            |
-| releaseYear | Release year            | 1994                                  |
-| director    | Director                | "Frank Darabont"                      |
-| cast        | Actors                  | ["Tim Robbins", "Morgan Freeman"]     |
+| releaseYear | Release year            | 1994                                  | |
 | genre       | Genres                  | ["Drama", "Crime"]                    |
 | description | Description             | "A banker is wrongfully convicted..." |
 | posterUrl   | Movie poster URL        | "https://image.tmdb.org/..."          |
