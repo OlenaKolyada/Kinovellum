@@ -17,15 +17,15 @@
 
 ### Movie (Фильм)
 
-| Поле | Бизнес-описание | Пример значения |
-|------|-----------------|-----------------|
-| id | Уникальный идентификатор фильма | "movie:tt0111161" |
-| title | Название фильма | "The Shawshank Redemption" |
+| Поле        | Бизнес-описание | Пример значения |
+|-------------|-----------------|-----------------|
+| id          | Уникальный идентификатор фильма | "movie:tt0111161" |
+| title       | Название фильма | "The Shawshank Redemption" |
 | releaseYear | Год выпуска | 1994 |
-| genre | Жанры | ["Drama", "Crime"] |
-| description | Краткое описание | "A banker is wrongfully convicted..." |
-| posterUrl | URL постера фильма | "https://image.tmdb.org/..." |
-| tmdbId | ID фильма в TMDb | "278" |
+| genre       | Жанры | ["Drama", "Crime"] |
+| synopsis    | Краткое описание | "A banker is wrongfully convicted..." |
+| posterUrl   | URL постера фильма | "https://image.tmdb.org/..." |
+| tmdbId      | ID фильма в TMDb | "278" |
 
 ## 2. Бизнес-функции (методы)
 

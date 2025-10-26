@@ -23,7 +23,7 @@
 | title       | Movie title             | "The Shawshank Redemption"            |
 | releaseYear | Release year            | 1994                                  | |
 | genre       | Genres                  | ["Drama", "Crime"]                    |
-| description | Description             | "A banker is wrongfully convicted..." |
+| synopsis    | Synopsis                | "A banker is wrongfully convicted..." |
 | posterUrl   | Movie poster URL        | "https://image.tmdb.org/..."          |
 | tmdbId      | TMDb movie ID           | "278"                                 |
 
