@@ -9,7 +9,6 @@
 | id | Unique entry identifier | "446655440000" |
 | userId | User identifier (entry owner) | "user:12345" |
 | movieId | Movie identifier from database | "movie:tt0111161" |
-| movieTitle | Movie title | "The Shawshank Redemption" |
 | viewingDate | Viewing date | "2025-10-15" |
 | rating | Movie rating (1-10) | 9 |
 | comment | User comment | "Amazing film about hope" |
